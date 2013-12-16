@@ -1,0 +1,14 @@
+_UART1_Write: CODE, 31308 0 46
+_UART2_Write: CODE, 31354 0 58
+_main: CODE, 32316 0 452
+___lmul: CODE, 31534 0 86
+_UART1_Init: CODE, 31620 0 98
+_laser_init: CODE, 31412 0 58
+__initialization: CODE, 31246 0 24
+___lldiv: CODE, 31948 0 134
+_move_motor: CODE, 31816 0 132
+_UART2_Init: CODE, 31718 0 98
+_laser_read: CODE, 32082 0 234
+_wifi_write: CODE, 31470 0 64
+_UART2_Read: CODE, 31276 0 32
+Total: 1516

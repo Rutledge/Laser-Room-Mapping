@@ -1,0 +1,562 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"32 /Applications/microchip/xc8/v1.21/sources/common/abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"34 /Applications/microchip/xc8/v1.21/sources/common/abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"37 /Applications/microchip/xc8/v1.21/sources/common/altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"43 /Applications/microchip/xc8/v1.21/sources/common/altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 /Applications/microchip/xc8/v1.21/sources/common/attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"38 /Applications/microchip/xc8/v1.21/sources/common/attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 /Applications/microchip/xc8/v1.21/sources/common/awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"33 /Applications/microchip/xc8/v1.21/sources/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 /Applications/microchip/xc8/v1.21/sources/common/bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"64 /Applications/microchip/xc8/v1.21/sources/common/double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"89 /Applications/microchip/xc8/v1.21/sources/common/fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"50 /Applications/microchip/xc8/v1.21/sources/common/fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"51 /Applications/microchip/xc8/v1.21/sources/common/flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"16 /Applications/microchip/xc8/v1.21/sources/common/flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"63 /Applications/microchip/xc8/v1.21/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"22 /Applications/microchip/xc8/v1.21/sources/common/flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"44 /Applications/microchip/xc8/v1.21/sources/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"87 /Applications/microchip/xc8/v1.21/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 /Applications/microchip/xc8/v1.21/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 /Applications/microchip/xc8/v1.21/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 /Applications/microchip/xc8/v1.21/sources/common/ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"22 /Applications/microchip/xc8/v1.21/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 /Applications/microchip/xc8/v1.21/sources/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 /Applications/microchip/xc8/v1.21/sources/common/lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"28 /Applications/microchip/xc8/v1.21/sources/common/lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"31 /Applications/microchip/xc8/v1.21/sources/common/lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"36 /Applications/microchip/xc8/v1.21/sources/common/lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 /Applications/microchip/xc8/v1.21/sources/common/lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 /Applications/microchip/xc8/v1.21/sources/common/lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"31 /Applications/microchip/xc8/v1.21/sources/common/lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v1.21/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 /Applications/microchip/xc8/v1.21/sources/common/lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"29 /Applications/microchip/xc8/v1.21/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 /Applications/microchip/xc8/v1.21/sources/common/tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/common/wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"5 /Applications/microchip/xc8/v1.21/sources/pic18/aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"83 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/main.c
+[v _main main `(i  1 e 2 0 ]
+"9 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/my_UART.c
+[v _UART1_Init UART1_Init `(v  1 e 0 0 ]
+"36
+[v _UART2_Init UART2_Init `(v  1 e 0 0 ]
+"61
+[v _UART1_Write UART1_Write `(v  1 e 0 0 ]
+"69
+[v _UART2_Write UART2_Write `(v  1 e 0 0 ]
+"78
+[v _UART1_Read UART1_Read `(i  1 e 2 0 ]
+"87
+[v _UART2_Read UART2_Read `(i  1 e 2 0 ]
+"7 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/operations.c
+[v _wait_onesec wait_onesec `(v  1 e 0 0 ]
+"65
+[v _move_motor move_motor `(v  1 e 0 0 ]
+"81
+[v _laser_init laser_init `(v  1 e 0 0 ]
+"95
+[v _laser_read laser_read `(ul  1 e 4 0 ]
+"141
+[v _wifi_write wifi_write `(v  1 e 0 0 ]
+"44 /Applications/microchip/xc8/v1.21/include/pic18f45k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"88
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"137
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"187
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"248
+[v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
+[s S258 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4397
+[s S267 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S567 . 1 `uc 1 ABDEN2 1 0 :1:0 
+]
+[s S569 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ABDOVF2 1 0 :1:7 
+]
+[s S572 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BRG162 1 0 :1:3 
+]
+[s S575 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DTRXP2 1 0 :1:5 
+]
+[s S578 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCIDL2 1 0 :1:6 
+]
+[s S581 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT2 1 0 :1:6 
+]
+[s S584 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXDTP2 1 0 :1:5 
+]
+[s S587 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP2 1 0 :1:4 
+]
+[s S590 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP2 1 0 :1:4 
+]
+[s S593 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WUE2 1 0 :1:1 
+]
+[u S596 . 1 `S258 1 . 1 0 `S267 1 . 1 0 `S567 1 . 1 0 `S569 1 . 1 0 `S572 1 . 1 0 `S575 1 . 1 0 `S578 1 . 1 0 `S581 1 . 1 0 `S584 1 . 1 0 `S587 1 . 1 0 `S590 1 . 1 0 `S593 1 . 1 0 ]
+[v _BAUDCON2bits BAUDCON2bits `VES596  1 e 1 @3952 ]
+[s S442 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4686
+[s S451 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S716 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+[s S725 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S728 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[s S731 . 1 `uc 1 RCD82 1 0 :1:0 
+]
+[u S733 . 1 `S442 1 . 1 0 `S451 1 . 1 0 `S716 1 . 1 0 `S725 1 . 1 0 `S728 1 . 1 0 `S731 1 . 1 0 ]
+[v _RCSTA2bits RCSTA2bits `VES733  1 e 1 @3953 ]
+[s S390 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4969
+[s S399 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S408 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S411 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S413 . 1 `S390 1 . 1 0 `S399 1 . 1 0 `S408 1 . 1 0 `S411 1 . 1 0 ]
+[v _TXSTA2bits TXSTA2bits `VES413  1 e 1 @3954 ]
+"5185
+[v _TXREG2 TXREG2 `VEuc  1 e 1 @3955 ]
+"5222
+[v _RCREG2 RCREG2 `VEuc  1 e 1 @3956 ]
+"5259
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3957 ]
+[s S85 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"7819
+[s S94 . 1 `uc 1 LA0 1 0 :1:0 
+]
+[s S96 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+]
+[s S99 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LA2 1 0 :1:2 
+]
+[s S102 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LA3 1 0 :1:3 
+]
+[s S105 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LA4 1 0 :1:4 
+]
+[s S108 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LA5 1 0 :1:5 
+]
+[s S111 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LA6 1 0 :1:6 
+]
+[s S114 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S117 . 1 `S85 1 . 1 0 `S94 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 `S114 1 . 1 0 ]
+[v _LATAbits LATAbits `VES117  1 e 1 @3977 ]
+[s S45 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"8433
+[s S54 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S63 . 1 `S45 1 . 1 0 `S54 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES63  1 e 1 @3986 ]
+"8875
+[v _TRISCbits TRISCbits `VES63  1 e 1 @3988 ]
+"9096
+[v _TRISDbits TRISDbits `VES63  1 e 1 @3989 ]
+[s S771 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"9846
+[s S779 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S784 . 1 `S771 1 . 1 0 `S779 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES784  1 e 1 @3998 ]
+[s S802 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"10379
+[s S811 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+]
+[s S814 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S817 . 1 `S802 1 . 1 0 `S811 1 . 1 0 `S814 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES817  1 e 1 @4004 ]
+"10739
+[s S454 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S463 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S466 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S469 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[s S471 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S474 . 1 `S442 1 . 1 0 `S451 1 . 1 0 `S454 1 . 1 0 `S463 1 . 1 0 `S466 1 . 1 0 `S469 1 . 1 0 `S471 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES474  1 e 1 @4011 ]
+"11188
+[v _TXSTA1bits TXSTA1bits `VES413  1 e 1 @4012 ]
+"11525
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"11602
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"11679
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"12807
+[s S270 . 1 `uc 1 ABDEN1 1 0 :1:0 
+]
+[s S272 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S275 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BRG161 1 0 :1:3 
+]
+[s S278 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DTRXP1 1 0 :1:5 
+]
+[s S281 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCIDL1 1 0 :1:6 
+]
+[s S284 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S287 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S290 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXDTP 1 0 :1:5 
+]
+[s S293 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXDTP1 1 0 :1:5 
+]
+[s S296 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+]
+[s S299 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+]
+[s S302 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[s S305 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+]
+[s S308 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S311 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S314 . 1 `S258 1 . 1 0 `S267 1 . 1 0 `S270 1 . 1 0 `S272 1 . 1 0 `S275 1 . 1 0 `S278 1 . 1 0 `S281 1 . 1 0 `S284 1 . 1 0 `S287 1 . 1 0 `S290 1 . 1 0 `S293 1 . 1 0 `S296 1 . 1 0 `S299 1 . 1 0 `S302 1 . 1 0 `S305 1 . 1 0 `S308 1 . 1 0 `S311 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES314  1 e 1 @4024 ]
+[s S26 . 256 `[125]uc 1 buffer_in 125 0 `uc 1 buffer_in_read_ind 1 125 `uc 1 buffer_in_write_ind 1 126 `uc 1 buffer_in_len 1 127 `uc 1 buffer_in_len_tmp 1 128 `[125]uc 1 buffer_out 125 129 `uc 1 buffer_out_ind 1 254 `uc 1 buffer_out_len 1 255 ]
+"7 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/my_UART.c
+[v _uart_1_data_p uart_1_data_p `*.39S26  1 s 2 uart_1_data_p ]
+"34
+[v _uart_2_data_p uart_2_data_p `*.39S26  1 s 2 uart_2_data_p ]
+"83 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"121
+[v main@n n `i  1 a 2 39 ]
+[s S26 . 256 `[125]uc 1 buffer_in 125 0 `uc 1 buffer_in_read_ind 1 125 `uc 1 buffer_in_write_ind 1 126 `uc 1 buffer_in_len 1 127 `uc 1 buffer_in_len_tmp 1 128 `[125]uc 1 buffer_out 125 129 `uc 1 buffer_out_ind 1 254 `uc 1 buffer_out_len 1 255 ]
+"90
+[v main@uart_data uart_data `S26  1 a 256 0 ]
+"115
+[v main@arcarea arcarea `ul  1 a 4 45 ]
+"118
+[v main@avgdist avgdist `ul  1 a 4 41 ]
+"116
+[v main@currdist currdist `ul  1 a 4 35 ]
+"119
+[v main@total total `ul  1 a 4 31 ]
+"114
+[v main@lastdist lastdist `ul  1 a 4 27 ]
+"136
+} 0
+"10 /Applications/microchip/xc8/v1.21/sources/common/lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"10
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"3 /Applications/microchip/xc8/v1.21/sources/common/lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"4
+[v ___lmul@product product `ul  1 a 4 8 ]
+"3
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"13
+} 0
+"141 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/operations.c
+[v _wifi_write wifi_write `(v  1 e 0 0 ]
+{
+"142
+[v wifi_write@write write `[4]uc  1 a 4 11 ]
+"149
+[v wifi_write@newline newline `uc  1 a 1 15 ]
+"141
+[v wifi_write@total total `ul  1 p 4 6 ]
+"152
+} 0
+"61 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/my_UART.c
+[v _UART1_Write UART1_Write `(v  1 e 0 0 ]
+{
+"62
+[v UART1_Write@i i `i  1 a 2 4 ]
+"61
+[v UART1_Write@c c `*.39uc  1 p 2 0 ]
+[v UART1_Write@length length `i  1 p 2 2 ]
+"67
+} 0
+"65 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/operations.c
+[v _move_motor move_motor `(v  1 e 0 0 ]
+{
+"78
+} 0
+"95
+[v _laser_read laser_read `(ul  1 e 4 0 ]
+{
+"98
+[v laser_read@temp temp `ul  1 a 4 17 ]
+"96
+[v laser_read@read read `[2]uc  1 a 2 21 ]
+[v laser_read@F8891 F8891 `[2]uc  1 s 2 F8891 ]
+"138
+} 0
+"81
+[v _laser_init laser_init `(v  1 e 0 0 ]
+{
+"83
+[v laser_init@resp resp `uc  1 a 1 9 ]
+"82
+[v laser_init@init init `uc  1 a 1 8 ]
+"92
+} 0
+"87 /Users/Rutledge/MPLABXProjects/Laser Mapping.X/my_UART.c
+[v _UART2_Read UART2_Read `(i  1 e 2 0 ]
+{
+[v UART2_Read@c c `*.39uc  1 p 2 0 ]
+"94
+} 0
+"69
+[v _UART2_Write UART2_Write `(v  1 e 0 0 ]
+{
+"70
+[v UART2_Write@i i `i  1 a 2 5 ]
+"69
+[v UART2_Write@c c `*.39uc  1 p 2 0 ]
+[v UART2_Write@length length `i  1 p 2 2 ]
+"75
+} 0
+"36
+[v _UART2_Init UART2_Init `(v  1 e 0 0 ]
+{
+[s S26 . 256 `[125]uc 1 buffer_in 125 0 `uc 1 buffer_in_read_ind 1 125 `uc 1 buffer_in_write_ind 1 126 `uc 1 buffer_in_len 1 127 `uc 1 buffer_in_len_tmp 1 128 `[125]uc 1 buffer_out 125 129 `uc 1 buffer_out_ind 1 254 `uc 1 buffer_out_len 1 255 ]
+[v UART2_Init@data data `*.39S26  1 p 2 0 ]
+"59
+} 0
+"9
+[v _UART1_Init UART1_Init `(v  1 e 0 0 ]
+{
+[s S26 . 256 `[125]uc 1 buffer_in 125 0 `uc 1 buffer_in_read_ind 1 125 `uc 1 buffer_in_write_ind 1 126 `uc 1 buffer_in_len 1 127 `uc 1 buffer_in_len_tmp 1 128 `[125]uc 1 buffer_out 125 129 `uc 1 buffer_out_ind 1 254 `uc 1 buffer_out_len 1 255 ]
+[v UART1_Init@data data `*.39S26  1 p 2 0 ]
+"32
+} 0
